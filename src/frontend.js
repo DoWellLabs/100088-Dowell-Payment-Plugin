@@ -20,12 +20,9 @@ import "./frontend.scss"
 import React, { useState } from "react"
 import ReactDOM from "react-dom"
 import { Stripe } from "./components/Stripe"
-import App from "./App"
 import { GetPaypal } from './components/GetPaypal';
 import { GetStripe } from './components/GetStripe';
 import { Paypal } from './components/Paypal';
-import { Home } from "./components/Home"
-
 
 const divsToUpdate = document.querySelectorAll(".boilerplate-update-me")
 divsToUpdate.forEach(div => {
