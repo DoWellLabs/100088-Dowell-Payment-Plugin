@@ -20,7 +20,7 @@ export const GetPaypal = () => {
         };
 
         try {
-            const response = await axios.post('https://100088.pythonanywhere.com/api/paypal/link', {
+            const response = await axios.post('https://100088.pythonanywhere.com/api/team/paypal/link', {
                 paypal_client_id: clientId,
                 paypal_secret_key: secretKey,
                 price: price,

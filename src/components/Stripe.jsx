@@ -19,7 +19,7 @@ export const Stripe = () => {
 
         try {
             //Make the POST API call using Axios
-            const response = await axios.post('https://100088.pythonanywhere.com/api/stripe', {
+            const response = await axios.post('https://100088.pythonanywhere.com/api/team/stripe', {
                 price: price,
                 product: product,
                 currency_code: currency

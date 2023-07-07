@@ -21,7 +21,7 @@ export const Paypal = () => {
 
         try {
             //Make the POST API call using Axios
-            const response = await axios.post('https://100088.pythonanywhere.com/api/paypal', {
+            const response = await axios.post('https://100088.pythonanywhere.com/api/team/paypal', {
                 price: price,
                 product: product,
                 currency_code: currency

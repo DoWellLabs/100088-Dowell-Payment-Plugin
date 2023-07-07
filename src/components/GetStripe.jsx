@@ -20,7 +20,7 @@ export const GetStripe = () => {
         };
 
         try {
-            const response = await axios.post('https://100088.pythonanywhere.com/api/stripe/link', {
+            const response = await axios.post('https://100088.pythonanywhere.com/api/team/stripe/link', {
                 stripe_key: stripe,
                 price: price,
                 product: productName,
