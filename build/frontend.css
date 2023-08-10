@@ -1,0 +1,46 @@
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/frontend.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+.boilerplate-frontend {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
+  background-color: #ffe5b4;
+  border: 2px solid #ffda97;
+  color: #ce9c41;
+  padding: 20px;
+  margin: 20px 0;
+}
+.boilerplate-frontend p {
+  margin: 0;
+  padding: 0;
+}
+/*!*************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/comp/PayPal.css ***!
+  \*************************************************************************************************************************************************************************/
+.home-container{
+
+
+    border: 5px solid blue;
+    width: 500px;
+    height: 350px;
+    display: grid;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.input input{
+
+    border: 2px solid grey;
+    border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.h{
+    color: red;
+}
+
+/*# sourceMappingURL=frontend.css.map*/
