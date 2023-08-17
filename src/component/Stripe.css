@@ -1,0 +1,62 @@
+.container {
+    max-width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-page {
+    width: 300px;
+    height: max-content;
+    display: grid;
+    margin-top: 60px;
+    text-align: center;
+    border: 5px solid blue;
+}
+
+h1 {
+    color: red;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input {
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    width: 300px;
+    height: 60px;
+    margin-top: 60px;
+    align-content: center;
+    text-align: center;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    opacity: 1;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+    .main-page {
+        width: 500px;
+    }
+
+    button {
+        width: 500px;
+        height: 80px;
+    }
+}
