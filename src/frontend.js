@@ -1,7 +1,7 @@
 import "./frontend.scss"
 import React, { useState } from "react"
 import ReactDOM from "react-dom"
-import Stripe from "./component/StripePay"
+import Main from '../src/component/main'
 
 const divsToUpdate = document.querySelectorAll(".boilerplate-update-me")
 
@@ -17,7 +17,7 @@ function OurComponent(props) {
 
     return (
         <div className="boilerplate-frontend">
-            <Stripe></Stripe>
+            <Main></Main>
         </div>
     )
 }

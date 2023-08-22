@@ -1,1 +1,3 @@
-This project initialize stripe payment and verify it
+## Stripe Payment
+This project initialize payment a stripe payment. When the user click on initialize payment button after filling the neccessary input, the user will be redirected to Stripe checkout platform with the details of the payment. Here the user will input his/her card details and other information required by Stripe so as to allow Stripe debit the user. After completing the payment on Stripe platform, the user will be redirected to a callback page/verification page where the paymentID of the user will be verify to see if stripe was able to sucessfully debit the user. If the paymentID status is successfully, the user will see "Payment Succesful" on the screen with a button to go back to the home page.. And if the paymentID status failed, the user will see "Payment failed" on the screen with a button to go back to the home page to start the payment process again.  
+
