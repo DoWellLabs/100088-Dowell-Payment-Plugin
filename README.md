@@ -1,3 +1,4 @@
+PAYPAL DOCUMENTATION
 This project implements a seamless payment flow method PayPal. When users initiate a payment by clicking the designated button and filling in the required information, they are seamlessly redirected to the PayPal checkout platform. On this platform, users are prompted to input their card details and any other pertinent information requested by PayPal, facilitating a secure payment process.
 
 Upon completing the transaction within the PayPal environment, users are automatically redirected to a carefully designed callback and verification page. This page plays a crucial role in ensuring the payment's success. During this phase, the paymentID associated with the user's transaction is meticulously verified to ascertain whether PayPal has successfully executed the payment. 
