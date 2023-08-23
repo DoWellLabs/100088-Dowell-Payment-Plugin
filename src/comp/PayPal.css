@@ -1,0 +1,29 @@
+.home-container{
+
+
+    border: 5px solid blue;
+    width: 500px;
+    height: 550px;
+    display: grid;
+}
+
+.form{
+    display: grid;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+.input input{
+
+    border: 2px solid grey;
+    border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.h{
+    color: red;
+}
