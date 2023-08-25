@@ -1,0 +1,146 @@
+/*!******************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/frontend.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************/
+.boilerplate-frontend {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.07);
+  background-color: white;
+  border: 2px solid skyblue;
+  color: black;
+  padding: 50px;
+  margin: 50px 0;
+}
+.boilerplate-frontend p {
+  margin: 0;
+  padding: 0;
+}
+/*!****************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/comp/PayPalNew.css ***!
+  \****************************************************************************************************************************************************************************/
+.PayPalNew {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 4px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .PayPalNew h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .PayPalNew form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .PayPalNew form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+  }
+  
+  .PayPalNew form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .PayPalNew form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .PayPalNew div {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .PayPalNew p {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .PayPalNew button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .PayPalNew .toggle-button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .PayPalNew .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+/*!*******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/comp/Stripe/InitializePayment.css ***!
+  \*******************************************************************************************************************************************************************************************/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px;
+  }
+  
+  .main-page {
+    border: 4px solid blue;
+    padding: 29px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .main-page label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .main-page input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .main-page button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .main-page button:hover {
+    background-color: #0056b3;
+  }
+  
+
+/*# sourceMappingURL=frontend.css.map*/
